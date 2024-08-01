@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        app:showAsAction="always" />
+
+    <item
+        android:title="@string/Location"
+        android:id="@+id/map"
+        android:icon="@drawable/baseline_location_on_24"
+        app:showAsAction="always" />
+
+    <item
+        android:title="@string/rating"
+        android:id="@+id/rating"
+        android:icon="@drawable/baseline_reviews_24"
+        app:showAsAction="always" />
+
+</menu>

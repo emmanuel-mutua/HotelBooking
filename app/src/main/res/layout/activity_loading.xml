@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoadActivity">
+
+    <TextView
+        android:id="@+id/hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/osoita_hotel"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+       />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/hotel"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp" />
+
+    <ImageView
+        android:id="@+id/hotelimage"
+        android:layout_width="304dp"
+        android:layout_height="340dp"
+        android:layout_below="@id/text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hotel_image" />
+
+</RelativeLayout>
